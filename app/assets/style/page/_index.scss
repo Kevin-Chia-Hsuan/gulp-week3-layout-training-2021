@@ -173,6 +173,12 @@
 .classic-list-content {
   display: flex;
   align-items: center;
+  .red {
+    @include size(44px, 44px);
+    @include pad {
+      @include size(36px, 36px);
+    }
+  }
   .white {
     display: none;
   }
@@ -185,6 +191,7 @@
       display: none;
     }
     .white {
+      @include size(33px, 33px);
       display: block;
     }
   }
