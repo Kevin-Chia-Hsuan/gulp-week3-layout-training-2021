@@ -589,6 +589,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .classic-list-content .red {
+    width: 44px;
+    height: 44px; }
+    @media screen and (max-width: 992px) {
+      .classic-list-content .red {
+        width: 36px;
+        height: 36px; } }
   .classic-list-content .white {
     display: none; }
   @media screen and (max-width: 767px) {
@@ -602,6 +609,8 @@ img {
       .classic-list-content .red {
         display: none; }
       .classic-list-content .white {
+        width: 33px;
+        height: 33px;
         display: block; } }
   .classic-list-content h4 {
     font-size: 48px;
